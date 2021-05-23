@@ -1,0 +1,241 @@
+<html>
+<head>
+<title>
+TOP 10 FAVOURITE MOVIES
+</title>
+</head>
+<style>
+body
+{
+background-color:green;
+}
+
+</style>
+<body>
+<!--
+1.title
+poster image
+year of release,rating and main cast names
+2.display the list in a tile/grid view
+3.display 2 dropdowns.one for choosing ascending or descending order.another for sorting by year of release or rating.movies lists based on user choice
+4.apply necessary for the UI
+
+
+stretch task
+ when user clicks image,play the trailer of movie in a small window
+
+
+
+<ol style="list-style-type:1;"><li>Irandam ulagam</li></ol>
+<ol style="list-style-type:1;"><li>Thalapathy</li></ol>
+<ol style="list-style-type:1;"><li>Sachin<li><ol>
+<ol style="list-style-type:1;"><li>Ghilli</li></ol>
+<ol style="list-style-type:1;"><li>Iron man</li></ol>
+<ol style="list-style-type:1;"><li>Guardians of the galaxy</li></ol>
+<ol style="list-style-type:1;"><li>Avatar</li></ol>
+<ol style="list-style-type:1;"><li>Baby's day out</li></ol>
+<ol style="list-style-type:1;"><li>Pudhupettai</li></ol>
+-->
+
+<label for="Movies list"></label>
+<select name="Movies List">
+<option value="Irandam Ulagam">Irandam Ulagam</option>
+<option value="Thalapathy">Thalapathy</option>
+<option value="Sachin">Sachin</option>
+<option value="Ghilli">Ghilli</option>
+<option value="IronMan">Ironman</option>
+<option value="Guardians of the galaxy">Guardians of the galaxy</option>
+<option value="Avatar">Avatar</option>
+<option value="Baby's day out</option>
+<option value="Pudhupettai">Pudhupettai</option>
+
+</select>
+<input type="submit"></input>
+<div class="irandam ulagam">
+<button onclick="gridview()" >
+<p>1.Irandam ulagam</p>
+<img src="images/irandamulagam.jpg"/>
+<p>released on 22 November 2013</p>
+<p>Rating -5.8/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=Vdo9AhfGFpo">
+</video>
+<p>Cast<ol>><li>Anushka shetty</li>
+		<li>Arya</li>
+		<li>Venkatesh</li>
+		<li>Padu Raman</li>
+		<li>Dhanush</li></button>
+		</ol></p>
+</div>
+
+<div class="Thalapathy">
+
+<button onclick="gridview()">
+<p>2.Thalapathy>
+<img src="images/thalapathy.jpg">
+<p>released on 5 November 1991</p>
+<p>Rating-8.5/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=pC5yWXqb8Ys">
+</video>
+<p>cast<ol><li>Rajinikanth</li>
+		<li>Mammooty</li>
+		<li>Shobana</li>
+		<li>Aravind</li>
+		<li>Srividya</li></button>
+		</ol></p>
+</div>
+
+<div class="Sachin">
+<button onclick="gridview()">
+<p>3.Sachin</p>
+<img src="images/sachin.jpg">
+<p>released on 14 April 2005</p>
+<p>Rating-7.3/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=3gDvH5ajShQ">
+</video>
+<p>cast<ol><li>Genelia</p>
+		<li>Vijay</li>
+		<li>Bipasha basu</p>
+		<li>Vadivelu</li>
+		<li>Santhanam</li>
+		</ol></p></button>
+</div>
+
+
+<div>
+
+<div class="Ghilli">
+<button onclick="gridview()">
+<p>4.Ghilli</p>
+<img src="images/ghilli.jpg">
+<p>released on 17 April 2004</p>
+<p>Rating-7.9/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=R0y6pSE9Pnw">
+</video>
+<p>cast<ol><li>Vijay</li>
+		<li>Trisha</li>
+		<li>PrakashRaj</li>
+		<li>Ashish Vidyarthi</li>
+		<li>Dhamu</li></p>
+</button>
+</div>
+
+<div class="Iron man">
+<button onclick="gridview()">
+<p>5.Ironman</p>
+<img src="images/ironman.jpg">
+<p>Released on 2 May 2008</p>
+<p>Rating-7.9/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=8hYlB38asDY">
+</video>
+<p>cast<ol><li>Robert Drowney Jr</li>
+		<li>Jon Favreau</li>
+		<li>Stan Lee</li>
+		<li>Don Seadle<li>
+		<li>Scarlett Johansson</li></p>
+</button>
+</div>
+
+
+<div class="Guardians of the galaxy">
+<button onclick="gridview()">
+<p>6.Guardians of the galaxy</p>
+<img src="images/guard.jpg">
+<p>Released on 31 July 2014</p>
+<p>Rating-8/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=d96cjJhvlMA">
+</video>
+<p>cast<ol><li>Chris Pratt</li>
+		<li>Zoe Saldana</li>
+		<li>James Gunn</li>
+		<li>Sean Gunn</li>
+		<li>Kurt Russell</li></p></button>
+</div>
+
+<div class="Avatar">
+<button onclick="gridview()">
+<p>7.Avatar</p>
+<img src="images/avatar.jpg">
+<p>Released on 17 December 2009</p>
+<p>Rating-7.8/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=5PSNL1qE6VY">
+</video>
+<p>cast<ol><li>Zoe Saldana</li>
+		<li>Sam Worthing</li>
+		<li>stephen Lang</li>
+		<li>Matt Gerald</li>
+		<li>Dileep Rao</li></p></button>
+</div>
+
+<div class="Baby's day out">
+<button onclick="gridview()">
+<p>8.Baby's Day out</p>
+<img src="images/baby.jpg">
+<p>Released on 12 August 1994</p>
+<p>Rating-6.2/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=pzow5wUp7hY">
+</video>
+<p>cast<ol><li>Jacob Joseph Worton</li>
+		<li>Lara Flynn Boyle</li>
+		<li>Joe Mantegna</li>
+		<li>Joe Pantaliano</li>
+		<li>Brian Haley</li></p>
+		</button>
+</div>
+
+<div class="Pudhupettai">
+<button onclick="gridview()">
+<p>9.Pudhupettai</p>
+<img src="images/pudhupettai.jpg"
+<p>Released on 26 May 2006</p>
+<p>Rating-8.5/10</p>
+<video>
+<source src="https://www.youtube.com/watch?v=D5OlxFeo0PM">
+</video>
+<p>Cast<ol><li>Dhanush</li>
+		<li>Sonia Aggarwal</li>
+		<li>Sneha</li>
+		<li>Azhagam Perumal</li>
+		<li>Nitish Veera</li></p>
+		</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
