@@ -1,0 +1,341 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<title>
+TOP 10 FAVOURITE MOVIES
+</title>
+</head>
+<style>
+ol
+{
+color:blue;
+}
+
+body
+{
+text-align:center;
+}
+.checked
+{
+color:orange;
+}
+
+</style>
+<body>
+<!--
+1.title
+poster image
+year of release,rating and main cast names
+2.display the list in a tile/grid view
+3.display 2 dropdowns.one for choosing ascending or descending order.another for sorting by year of release or rating.movies lists based on user choice
+4.apply necessary for the UI
+
+
+stretch task
+ when user clicks image,play the trailer of movie in a small window
+
+
+
+<ol style="list-style-type:1;"><li>Irandam ulagam</li></ol>
+<ol style="list-style-type:1;"><li>Thalapathy</li></ol>
+<ol style="list-style-type:1;"><li>Sachin<li><ol>
+<ol style="list-style-type:1;"><li>Ghilli</li></ol>
+<ol style="list-style-type:1;"><li>Iron man</li></ol>
+<ol style="list-style-type:1;"><li>Guardians of the galaxy</li></ol>
+<ol style="list-style-type:1;"><li>Avatar</li></ol>
+<ol style="list-style-type:1;"><li>Baby's day out</li></ol>
+<ol style="list-style-type:1;"><li>Pudhupettai</li></ol>
+-->
+
+<label for="Movies list"></label>
+<select name="Movies List">
+<option value="Irandam Ulagam">Irandam Ulagam</option>
+<option value="Thalapathy">Thalapathy</option>
+<option value="Sachin">Sachin</option>
+<option value="Ghilli">Ghilli</option>
+<option value="IronMan">Ironman</option>
+<option value="Guardians of the galaxy">Guardians of the galaxy</option>
+<option value="Avatar">Avatar</option>
+<option value="Baby's day out</option>
+<option value="Pudhupettai">Pudhupettai</option>
+
+</select>
+
+<div class="irandam ulagam" style="background-color:rose;" id="landscape">
+<button onclick="tileview()" >
+
+<h1 style="color:blue; font-weight:bold;">1.Irandam ulagam(2013)</h1><br>
+
+<img src="images/irandamulagam.jpg"/><br>
+<br>
+<h3>Rating -5.8/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+
+
+<video>
+<source src="https://www.youtube.com/watch?v=Vdo9AhfGFpo">
+</video>
+<h2><strong style="text-align:center;">Cast</strong></h2><br><ol><li>Anushka Shetty</li>
+		<li>Arya</li>
+		<li>Venkatesh</li>
+		<li>Padu Raman</li>
+		<li>Dhanush</li></ol></button>
+		
+</div>
+
+<div class="Thalapathy" style="background-color:maroon;" id="landscape">
+
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">2.Thalapathy(1991)</h1><br>
+<img src="images/thalapathy.jpg"><br>
+
+<h3>Rating-8.5/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star" checked></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=pC5yWXqb8Ys">
+</video>
+<h2><strong>Cast</strong></h2><br><ol><li>Rajinikanth</li>
+		<li>Mammooty</li>
+		<li>Shobana</li>
+		<li>Aravind</li>
+		<li>Srividya</li></button>
+		</ol>
+</div>
+
+<div class="Sachin" style="background-color:yellow;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">3.Sachin(2005)</h1><br>
+<img src="images/sachin.jpg"><br>
+
+<h3>Rating-7.3/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=3gDvH5ajShQ">
+</video>
+.<h2><strong>Cast</strong></h2><br><ol><li>Genelia</li>
+		<li>Vijay</li>
+		<li>Bipasha basu</p>
+		<li>Vadivelu</li>
+		<li>Santhanam</li>
+		</ol></button>
+</div>
+
+
+<div>
+
+<div class="Ghilli" style="background-color:pink;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">4.Ghilli(2004)</h1><br>
+<img src="images/ghilli.jpg"><br>
+<h3>Rating-7.9/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=R0y6pSE9Pnw">
+</video>
+<h2><strong>Cast</strong></h2><ol><br><li>Vijay</li>
+		<li>Trisha</li>
+		<li>PrakashRaj</li>
+		<li>Ashish Vidyarthi</li>
+		<li>Dhamu</li>
+</button>
+</div>
+
+<div class="Iron man" style="background-color:black;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">5.Ironman(2008)</h1><br>
+<img src="images/ironman.jpg"><br>
+
+<h3>Rating-7.9/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=8hYlB38asDY">
+</video>
+<h2><strong>Cast</strong></h2><br><ol><li>Robert Drowney Jr</li>
+		<li>Jon Favreau</li>
+		<li>Stan Lee</li>
+		<li>Don Seadle<li>
+		<li>Scarlett Johansson</li>
+</button>
+</div>
+
+
+<div class="Guardians of the galaxy" style="background-color:green;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">6.Guardians of the galaxy(2014)</h1><br>
+<img src="images/guard.jpg"><br>
+
+<h3>Rating-8/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span><span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=d96cjJhvlMA">
+</video>
+<h2><strong>Cast</strong></h2><br><br><ol><li>Chris Pratt</li>
+		<li>Zoe Saldana</li>
+		<li>James Gunn</li>
+		<li>Sean Gunn</li>
+		<li>Kurt Russell</li></button>
+</div>
+
+<div class="Avatar" style="background-color:red;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">7.Avatar(2009)</h1><br>
+<img src="images/avatar.jpg"><br>
+
+<h3>Rating-7.8/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked "></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=5PSNL1qE6VY">
+</video>
+<h2><strong>Cast</strong></h2><br><ol><li>Zoe Saldana</li>
+		<li>Sam Worthing</li>
+		<li>stephen Lang</li>
+		<li>Matt Gerald</li>
+		<li>Dileep Rao</li></button>
+</div>
+
+<div class="Baby's day out" style="background-color:blue;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">8.Baby's Day out(1994)</h1><br>
+<img src="images/baby.jpg"><br>
+<h3>Rating-6.2/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=pzow5wUp7hY">
+</video>
+<h2><strong>Cast</strong></h2><br><ol><li>Jacob Joseph Worton</li>
+		<li>Lara Flynn Boyle</li>
+		<li>Joe Mantegna</li>
+		<li>Joe Pantaliano</li>
+		<li>Brian Haley</li>
+		</button>
+</div>
+
+<div class="Pudhupettai" style="background-color:gray;" id="landscape">
+<button onclick="tileview()">
+<h1 style="color:blue; font-weight:bold;">9.Pudhupettai(2006)</h1><br>
+<img src="images/pudhupettai.jpg"/><br>
+<h3>Rating-8.5/10
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked "></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+<span class="fa fa-star"></span></h3>
+<video>
+<source src="https://www.youtube.com/watch?v=D5OlxFeo0PM">
+</video>
+<h2><strong>Cast</strong></h2><br><ol><li>Dhanush</li>
+		<li>Sonia Aggarwal</li>
+		<li>Sneha</li>
+		<li>Azhagam Perumal</li>
+		<li>Nitish Veera</li></ol></body>
+		</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
